@@ -5,28 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
-    <style>
-        h1{
-            background-color: black;
-            text-align: center;
-        }
-
-
-    </style>
-
 
 </head>
 
 <body>
 
+    <button onclick="add()">Add</button>
+    <br>
+    <button onclick="sub()">Sub</button>
+    <br>
+    <button onclick="mult()">Mult</button>
+    <br>
+    <button onclick="product()">Product</button>
 
-    <h1 style="color: Red">Heloo Wold</h1>
 
+    <script>
 
-    
-    <script src="./index.js"></script>
+        function add() {
+            let a = prompt("Enter Value 1st");
+            let b = prompt("Enter Value 2nd");
+            document.write(a + b)
+        }
+
+        function sub() {
+            let a = prompt("Enter Value 1st");
+            let b = prompt("Enter Value 2nd");
+            document.write(a - b)
+        }
+
+        function mult() {
+            let a = prompt("Enter Value 1st");
+            let b = prompt("Enter Value 2nd");
+            document.write(a * b)
+        }
+
+        function product() {
+            let a = prompt("Enter Value 1st");
+            let b = prompt("Enter Value 2nd");
+            document.write(a / b)
+        }
+
+    </script>
 </body>
 
 </html>
